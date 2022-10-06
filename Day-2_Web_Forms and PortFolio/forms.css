@@ -1,0 +1,17 @@
+h1{
+    color: brown;
+    background-color:cornflowerblue ;
+    border: 20px solid blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+label.krutika{
+    font-size: 20px;
+    text-decoration: underline;
+    color: darkgoldenrod;
+    display: inline;
+    text-shadow: 2px 2px lawngreen;
+}
+p::placeholder{
+    color: hotpink;
+}

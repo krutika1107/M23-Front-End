@@ -1,0 +1,93 @@
+@import url("chrome://communicator/skin/");
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    background: #dedede;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+    padding: 10px;
+}
+nav ul li{
+    margin: 0px 20px;
+}
+.logo-text{
+    font-size: 4em;
+    font-weight: 700;
+    color: rgb(red, green, blue);
+}
+#home{
+    background: black;
+    color: aliceblue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div p{
+    font-size: 2.7em;
+    font-weight: 200;
+}
+h1,h3.h4{
+    font-weight: 600;
+}
+h1{
+    font-size: 5em;
+}
+h2{
+    font-weight: 800;
+}
+h3{
+    font-size: 2em;
+
+}
+h4{
+    font-size: 400;
+}
+#bio{
+    display: flex;
+    align-items: center;
+}
+#bio img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 80px;
+
+}
+.link-button:hover{
+    color: white;
+}
+hr{
+    width: 300px;
+
+}
+#portfolio{
+    background: url();
+    background-color: black;
+    color: aliceblue;
+}
+#portfolio,#skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+#portfolio div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+    width: 50%;
+}
+#portfolio img{
+    width: 250px;
+    height: 200px;
+}
+#portfolio div articlep{
+    padding: 0 5px;
+}
+#portfolio h3,p,hr{
+    margin-bottom: 10px;
+}

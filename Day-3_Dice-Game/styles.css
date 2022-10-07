@@ -3,6 +3,10 @@
   text-align: center;
   margin:auto;
   width:70%;
+  
+}.container img{
+  height: 200px;
+  width: 200px;
 }
 .dice
 {
